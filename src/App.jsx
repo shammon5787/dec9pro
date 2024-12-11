@@ -6,12 +6,12 @@ import Success from './Pages/Success'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-      <Routes>
-        <Route path='/' element = {<Home/>} />
-        <Route path='/success' element = {<Success/>} />
-      </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/success' element={<Success />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   )
 }
