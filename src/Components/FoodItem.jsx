@@ -17,7 +17,7 @@ const FoodItem = () => {
           }
         }).map((food) => {
           return (
-            <FoodCard key={food.id} id = {food.id} name = {food.name} image = {food.image} price = {food.price} qty = {food.qty} />
+            <FoodCard key={food.id} id = {food.id} name = {food.name} image = {food.image} price = {food.price} rating = {food.ratting} desc = {food.desc} />
           )
         })
       }
